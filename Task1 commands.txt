@@ -3,23 +3,24 @@ Used Gitbash as ssh client and logged into the remote ec2 using key01.pem
 commands used:
 ssh -i key01.pem ec2-user@(public-ip)
 cd
-mkdir my_folder   				//creating a directory
-cd my_folder     				//navigating into directory
-touch my_file.txt 				// creating a file
-vi my_file.txt 					//  open the file in vi editor
+mkdir my_folder   				                                              //creating a directory
+cd my_folder     				                                               //navigating into directory
+touch my_file.txt 			                                              	// creating a file
+vi my_file.txt 					                                                //  open the file in vi editor
  1 press i key to start insert mode
  2 This is the content in my_file.txt
  3 press 'esc',:wq!(to save and exit the editor)
-cat my_file.txt 				// see the contents in the file
+cat my_file.txt 				                                                // see the contents in the file
 touch another_file.txt
 vi another_file.txt
 cat another_file.txt
-cat another_file.txt >> my_file.txt 		// '>>' to append another_file.txt content to my_file.txt
-cat my_file.txt 				// verify content is appended or not
-ls 						//to list all files and directories in the current directory
+cat another_file.txt >> my_file.txt 		                             // '>>' to append another_file.txt content to my_file.txt
+cat my_file.txt 				                                               // verify content is appended or not
+ls 						                                                          //to list all files and directories in the current 
+                                                                      directory
 
 
-touch file{1..20}.txt                           //to create 20 .txt files
-mv file1.txt file1.yml				//renaming the file to .yml
-for i in {1..5}; do mv "file$i.txt" "file$i.yml";done       // to complete renaming in one go
-ls -lt | head -6                                // to get top 5 files according to modification time 
+touch file{1..20}.txt                                               //to create 20 .txt files
+mv file1.txt file1.yml				                                          //renaming the file to .yml
+for i in {1..5}; do mv "file$i.txt" "file$i.yml";done               // to complete renaming in one go
+ls -lt | head -6                                                    // to get top 5 files according to modification time 
