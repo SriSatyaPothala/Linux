@@ -1,3 +1,8 @@
+Firstly, Created an ec2 instance in AWS and started the ec2.
+Used Gitbash as ssh client and logged into the remote ec2 using key01.pem
+commands used:
+ssh -i key01.pem ec2-user@(public-ip)
+cd
 mkdir my_folder   				//creating a directory
 cd my_folder     				//navigating into directory
 touch my_file.txt 				// creating a file
