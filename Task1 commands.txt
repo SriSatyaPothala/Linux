@@ -1,14 +1,14 @@
-1.mkdir my_folder   //creating a directory
-2. cd my_folder     //navigating into directory
-3. touch my_file.txt // creating a file
-4. vi my_file.txt //  open the file in vi editor
- 	4.1 press i key to start insert mode
-	4.2 This is the content in my_file.txt
-	4.3 press 'esc' ,:wq! (to save and exit the editor)
-5. cat my_file.txt // see the contents in the file
-6. touch another_file.txt
-7. vi another_file.txt
-8. cat another_file.txt
-9. cat another_file.txt >> my_file.txt // '>>' to append another_file.txt content to my_file.txt
-10. cat my_file.txt // verify content is appended or not
-11. ls //to list all files and directories in the current directory
+mkdir my_folder   				//creating a directory
+cd my_folder     				//navigating into directory
+touch my_file.txt 				// creating a file
+vi my_file.txt 					//  open the file in vi editor
+ 1 press i key to start insert mode
+ 2 This is the content in my_file.txt
+ 3 press 'esc',:wq!(to save and exit the editor)
+cat my_file.txt 				// see the contents in the file
+touch another_file.txt
+vi another_file.txt
+cat another_file.txt
+cat another_file.txt >> my_file.txt 		// '>>' to append another_file.txt content to my_file.txt
+cat my_file.txt 				// verify content is appended or not
+ls 						//to list all files and directories in the current directory
