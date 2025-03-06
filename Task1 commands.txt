@@ -17,3 +17,9 @@ cat another_file.txt
 cat another_file.txt >> my_file.txt 		// '>>' to append another_file.txt content to my_file.txt
 cat my_file.txt 				// verify content is appended or not
 ls 						//to list all files and directories in the current directory
+
+
+touch file{1..20}.txt                           //to create 20 .txt files
+mv file1.txt file1.yml				//renaming the file to .yml
+for i in {1..5}; do mv "file$i.txt" "file$i.yml";done       // to complete renaming in one go
+ls -lt | head -6                                // to get top 5 files according to modification time 
