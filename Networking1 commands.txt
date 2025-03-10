@@ -1,6 +1,6 @@
-mkdir home 
-cd home
-touch demo.txt
-ls -lh demo.txt
-sudo chmod 764 demo.txt
-sudo chmod u+rwx,g+rw,o+r demo.txt
+mkdir home                                      //creating home dir
+cd home                                         // to go inside home dir
+touch demo.txt                                   // to create a file 
+ls -lh demo.txt                                  // check permissions of demo.txt in readable format
+sudo chmod 764 demo.txt                          // Numerical format permission setting using sudo command
+sudo chmod u+rwx,g+rw,o+r demo.txt               //symbolic format permission setting using sudo command
