@@ -1,0 +1,6 @@
+mkdir home 
+cd home
+touch demo.txt
+ls -lh demo.txt
+sudo chmod 764 demo.txt
+sudo chmod u+rwx,g+rw,o+r demo.txt
