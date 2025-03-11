@@ -5,3 +5,5 @@ free -m                                               // to check the memory usa
 ping guvi.com                                        // to test the connectivity
 nmap -p 9000 172.67.146.154                           // to check if a port is open on a server
 
+
+note: respective outputs are present in Networking2 Op.png, Networking2 Op2.png. Networking2 Op3.png, MemoryUsage.png
