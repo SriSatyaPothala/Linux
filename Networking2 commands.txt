@@ -1,5 +1,7 @@
-1. nslookup guvi.com                           
-2. top 
-3. free -m
-4. ping guvi.com
-5. nmap -p 9000 172.67.146.154 [guvi.com ip address]
+nslookup  guvi.com                                     //to get the ip address of guvi.com  
+top                                                   // to check the CPU usage
+htop
+free -m                                               // to check the memory usage
+ping guvi.com                                        // to test the connectivity
+nmap -p 9000 172.67.146.154                           // to check if a port is open on a server
+
